@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  width:100%;
+}
+
+.card {
+  color: grey;
+  text-align: center;
+  height: 45vh;
+  width: 15vw;
+  background-color: white;
+
+}
+
+.top{
+  background-color: #424242;
+  padding: 11px 5px;
+  border-radius: 5px;
+  margin: 0;
+  position: relative;
+}
+
+.top p {
+  color: white;
+  margin: 0;
+}
+
+.middle {
+  text-align: left;
+  height: 52%;
+  background-color: white;
+  border: 0.5px solid grey;
+  margin-top: 10px;
+}
+
+.middle-content {
+  padding: 10px 20px;
+}
+
+
+.triangle-demo {
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+  background: transparent;
+  border-top: 10px solid #424242;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -17px;
+  right: 27px;
+  z-index: 999;
+  }
+
+.progressBar {
+  border: 0.5px solid grey;
+  height: 11px;
+  background-color: transparent;
+  border-top: none;
+}
+
+.completed {
+  width: 70%;
+  height: 10px;
+  background-color: #f15e33;
+}
+
+.incomplete {
+  width: 30%;
+  height: 10px;
+}
+
+.information {
+
+}
+
+.highliter {
+  color: #d87152;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  height: 41px;
+}
+
+.user-input {
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 1.1em;
+  /*margin: 0 10px 10px 0;*/
+  padding: 8px 5px;
+  width: 115px;
+}
+
+.submit-btn {
+  border: 1px solid #00be1c;
+  border-radius: 3px;
+  background-color: #00be1c;
+  font-weight: bold;
+  color: white;
+  font-size: 1.1em;
+  /*margin: 0 0 10px 10px;*/
+  padding: 8px 5px;
+  width: 115px;
+}
+
+.link {
+  display: flex;
+}
+
+.link a {
+  font-style: italic;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+form {
+    justify-content: space-between;
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+
+.bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+}
+
+.left {
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 35px;
+  width: 48%;
+}
+
+.right {
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 35px;
+  width: 48%;
+}
